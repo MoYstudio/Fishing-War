@@ -1,1 +1,0 @@
-execute if score #SYSTEM test_team matches 2 run execute if score #SYSTEM datapack_run matches 1 run function moreplayer_way:team_end_be_killed_test

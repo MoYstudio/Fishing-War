@@ -1,1 +1,0 @@
-tellraw @a [{"text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n感谢","color": "gold"},{"selector":"@a","color": "aqua","bold": true},{"text": "的游玩，给您带来了欢乐是我们最大的荣幸！\n","color": "gold"}]
