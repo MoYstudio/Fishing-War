@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion"
+        },
+        "title": "sd药水",
+        "description": "sd药水",
+        "frame": "task",
+        "hidden": true,
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "potion_poison": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "nbt": "{CustomPotionColor:3358207,HideFlags:63,display:{Name:'[{\"text\":\"速度药水\",\"color\":\"blue\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"text\":\"使自己获得速度效果\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}','{\"text\":\"效果持续:50s\",\"color\":\"light_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}']}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dj:sudu"
+    }
+}

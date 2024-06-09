@@ -1,0 +1,1 @@
+tellraw @a [{"text": "\n*如发现任何BUG以及意见或建议,请提交到","color": "red","bold": true},{"text": "[腾讯问卷]","color": "gold","underlined": true,"bold": true,"clickEvent":{"action":"open_url","value":"https://wj.qq.com/s2/10621267/0e22/"},"hoverEvent":{"action": "show_text","value": "点我打开网址"}},{"text": ",我们会在下一版本进行修改和调整!","color": "red","bold": true}]

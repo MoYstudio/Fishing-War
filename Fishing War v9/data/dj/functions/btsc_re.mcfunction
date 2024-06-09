@@ -1,0 +1,1 @@
+scoreboard players set @s run_run_light 1

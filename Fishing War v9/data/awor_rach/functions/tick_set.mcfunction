@@ -1,0 +1,1 @@
+scoreboard players set #SYSTEM chest_rain 2

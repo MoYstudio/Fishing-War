@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion"
+        },
+        "title": "sd药水",
+        "description": "sd药水",
+        "frame": "task",
+        "hidden": true,
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "potion_poison": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "nbt": "{CustomPotionColor:3385917,HideFlags:63,display:{Name:'[{\"text\":\"跳跃药水\",\"color\":\"dark_green\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]',Lore:['{\"text\":\"跳得更高!\",\"color\":\"dark_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}','{\"text\":\"效果持续:1min\",\"color\":\"light_purple\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}']}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dj:ty"
+    }
+}
