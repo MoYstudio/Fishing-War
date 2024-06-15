@@ -1,0 +1,5 @@
+{
+    "values": [
+        "party:tick","timer:loop","moreplayer_way:tick","moreplayer_way:loaded_test","lang:tick"
+    ]
+}

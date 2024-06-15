@@ -1,0 +1,204 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag":"{Damage:2020,Enchantments:[{id:\"minecraft:bane_of_arthropods\",lvl:3s},{id:\"minecraft:vanishing_curse\",lvl:50s},{id:\"minecraft:fire_aspect\",lvl:50s},{id:\"minecraft:knockback\",lvl:3s},{id:\"minecraft:looting\",lvl:10s},{id:\"minecraft:sharpness\",lvl:50s},{id:\"minecraft:smite\",lvl:50s},{id:\"minecraft:sweeping\",lvl:50s},{id:\"minecraft:unbreaking\",lvl:2s}]}" 
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_shovel",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_shovel",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag":"{Damage:400,Enchantments:[{id:\"efficiency\",lvl:30},{id:\"mending\",lvl:30},{id:\"fortune\",lvl:30},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:10s}]}" 
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_pickaxe",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_pickaxe",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag":"{Damage:400,Enchantments:[{id:\"efficiency\",lvl:30},{id:\"mending\",lvl:30},{id:\"fortune\",lvl:30},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:10s}]}" 
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_axe",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_axe",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag":"{Damage:2020,Enchantments:[{id:\"efficiency\",lvl:50},{id:\"fortune\",lvl:50},{id:\"sweeping\",lvl:50},{id:\"knockback\",lvl:3},{id:\"fire_aspect\",lvl:50},{id:\"smite\",lvl:50},{id:\"bane_of_arthropods\",lvl:3},{id:\"mending\",lvl:50},{id:\"sharpness\",lvl:50},{id:\"looting\",lvl:50},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:10s}]}" 
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_hoe",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_hoe",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag":"{Damage:410,Enchantments:[{id:\"efficiency\",lvl:50},{id:\"mending\",lvl:50},{id:\"fortune\",lvl:50},{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:mending\",lvl:10s}]}" 
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Damage:30,Enchantments:[{id:\"minecraft:unbreaking\",lvl:50s}],BlockEntityTag:{Base:12,Patterns:[{Pattern:cbo,Color:13},{Pattern:gra,Color:15},{Pattern:bts,Color:15},{Pattern:gru,Color:2},{Pattern:cre,Color:15},{Pattern:cr,Color:11},{Pattern:ss,Color:7},{Pattern:gra,Color:4},{Pattern:gru,Color:1}]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint_and_steel",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Damage:350,Enchantments:[{id:\"minecraft:flame\",lvl:55s},{id:\"minecraft:looting\",lvl:50s},{id:\"minecraft:mending\",lvl:5s},{id:\"minecraft:power\",lvl:45s},{id:\"minecraft:punch\",lvl:3s}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Damage:300,Enchantments:[{id:\"minecraft:flame\",lvl:47s},{id:\"minecraft:infinity\",lvl:1s},{id:\"minecraft:looting\",lvl:40s},{id:\"minecraft:mending\",lvl:2s},{id:\"minecraft:power\",lvl:55s},{id:\"minecraft:punch\",lvl:1s}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "weight":7,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Damage:100,Enchantments:[{id:\"minecraft:flame\",lvl:47s},{id:\"minecraft:infinity\",lvl:1s},{id:\"minecraft:looting\",lvl:40s},{id:\"minecraft:mending\",lvl:3s},{id:\"minecraft:power\",lvl:70s},{id:\"minecraft:punch\",lvl:3s}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "functions": [
+              {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{Damage:240,Enchantments:[{id:\"minecraft:sharpness\",lvl:49},{id:\"minecraft:loyalty\",lvl:2},{id:\"minecraft:unbreaking\",lvl:69},{id:\"minecraft:channeling\",lvl:1}]}"
+              }
+          ],
+          "weight": 7
+      }
+      ]
+    }
+  ]
+}
