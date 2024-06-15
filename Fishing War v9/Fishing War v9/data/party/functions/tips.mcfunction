@@ -1,0 +1,3 @@
+tellraw @s [{"text": "\n*为了游玩体验,请在","color": "aqua"},{"text": "[聊天设置]","color": "gold"},{"text": "中,将","color": "aqua"},{"text": "[文本背景不透明度]","color": "gold"},{"text": "设置为0%~10%","color": "aqua"}]
+tellraw @s {"text": "*任何物品都有其用途的...","color": "aqua","bold": true,"hoverEvent": {"action": "show_text","value": {"text": "大部分的武器装备都有经验修补...","color": "dark_gary"}}}
+tellraw @s {"text": "*仅仅用4个白色羊毛就可以合成3根线了","color": "aqua","bold": true,"hoverEvent": {"action": "show_text","value": {"text": "妈妈再也不用担心不会做台作工了","color": "dark_gary"}}}

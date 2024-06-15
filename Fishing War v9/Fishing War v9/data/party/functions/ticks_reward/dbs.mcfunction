@@ -1,0 +1,1 @@
+title @s actionbar [{"text": "正在检测[ ","color": "gray"},{"selector":"@p[team=HH]","color": "aqua","bold": true},{"text": " ]位置","color": "gray"}]

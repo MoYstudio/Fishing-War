@@ -1,0 +1,15 @@
+tellraw @a {"text": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n-------------------------------------","color": "gray"}
+tellraw @a [{"text": "\n[游戏基础规则设置]\n","clickEvent":{"action":"run_command","value":"/function party:ruless/gamerules"},"hoverEvent":{"action": "show_text","contents": {"text": "已设置默认[死亡不掉落]"}},"color": "gold","bold": true}]
+tellraw @a {"text": "-------------------------------------\n","color": "gray"}
+tellraw @a [{"text":"[设置最优项]\n","color":"light_purple","blod":true,"clickEvent": { "action": "run_command","value": "/function party:best_ch"}}]
+tellraw @a {"text": "[请选择在游戏第一阶段时死亡后可否再生]","color": "gold","bold": true}
+tellraw @a [{"text":"          -是-                 ","color": "red","clickEvent":{"action":"run_command","value":"/function party:way/no"},"bold": true},{"text": "-否-\n","color": "blue","clickEvent":{"action":"run_command","value":"/function party:way/yes"},"bold": true}]
+tellraw @a {"text": "[请选择第一阶段时长]","color": "gold","bold": true}
+tellraw @a [{"text": "        -15min-        ","color": "aqua","clickEvent":{"action":"run_command","value":"/function party:time_add/set/15min"},"bold": true},{"text": "-30min-      ","color": "aqua","clickEvent":{"action":"run_command","value":"/function party:time_add/set/30min"},"bold": true},{"text": "  -40min-\n","color": "aqua","clickEvent":{"action":"run_command","value":"/function party:time_add/set/40min"},"bold": true}]
+tellraw @a {"text": "[请选择是否显示最近敌方玩家坐标]","color": "gold","bold": true}
+tellraw @a [{"text": "        -是-      ","color": "aqua","clickEvent":{"action":"run_command","value":"/function player_excuse:001"},"bold": true,"hoverEvent":{"action":"show_text","value":"显示最近的敌方玩家的精确坐标![x,y,z]"}},{"text": "    -否-\n","color": "aqua","clickEvent":{"action":"run_command","value":"/function player_excuse:002"},"bold": true,"hoverEvent":{"action":"show_text","value":"全体成员发光"}}]
+tellraw @a {"text": "-------------------------------------","color": "gray"}
+tellraw @a [{"text": "[选择队伍]","color": "gold","bold": true}]
+tellraw @a [{"text":"       -Pursuers-       ","color":"dark_blue","bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"run_command","value":"/function party:starts/joinhh"}},{"text":"-Avengers-       ","color":"dark_red","bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"run_command","value":"/function party:starts/joindb"}},{"text":"-Spectator-\n","color":"gray","bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"run_command","value":"/function party:starts/joinspectator"}}]
+tellraw @a {"text": "-------------------------------------","color": "gray"}
+tellraw @s {"text": "[返回]","color": "dark_aqua","clickEvent": {"action":"run_command","value": "/function party:ready"}}
