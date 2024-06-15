@@ -1,0 +1,21 @@
+{
+	"pack": {
+		"pack_format": 6, 
+		"description": [
+			{
+				"text": "[创作者]",
+				"color": "aqua"
+			},
+			{
+				"text": "zirran\n",
+				"color": "gold",
+				"underlined": true
+			},
+			{
+				"text": "[v9.0]Remake!",
+				"bold": true,
+				"color": "light_purple"
+			}
+		]
+	}
+}
